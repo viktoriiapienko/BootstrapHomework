@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NewHair Hair Salon</title>
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+    <!-- JavaScript files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bootstrap.js"></script>
+</head>
+<body>
+<nav class="nav">
+    <form>
+      <input type="search" placeholder="Search" aria-label="Search">
+    </form>
+</nav>
+<h1>NewHair - your beauty experts</h1>
+<!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://storage.googleapis.com/smartninja-org-assets/curriculums/wd1/img/hairsalon-slider-1.jpg" class="d-block w-100" alt="hairdresser image 1">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://storage.googleapis.com/smartninja-org-assets/curriculums/wd1/img/hairsalon-slider-2.jpg" class="d-block w-100" alt="hairdresser image 1">
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- END Carousel -->
+
+<div class="container">
+    <div class="box">
+    <ul class="header">
+        <li>
+            <h3>Styling</h3>
+        </li>
+        <li class="logo">
+        <img src="http://images.all-free-download.com/images/graphiclarge/hair_salon_logo_template_vector_157102.jpg" width="50px" heigh="50px">
+    </li>
+    </ul>
+    <ul>
+        <li>
+            <img src="https://st.depositphotos.com/1491329/1280/i/950/depositphotos_12801731-stock-photo-haircut-beautiful-girl-with-healthy.jpg" width="250px" height="250px">
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <button>Mehr erfahren</button>
+        </li>
+    </ul>
+</div>
+<div class="box">
+    <ul class="header"><li><h3>Coloring</h3></li>
+    <li class="logo">
+        <img src="http://images.all-free-download.com/images/graphiclarge/hair_salon_logo_template_vector_157102.jpg" width="50px" heigh="50px">
+    </li></ul>
+    <ul><li><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-500224110-1-1532464126.jpg?crop=1.00xw:0.669xh;0,0.129xh&resize=480:*" width="250px" height="250px"></li></ul>
+    <ul><li><button>Mehr erfahren</button></li></ul>
+</div>
+<div class="box">
+    <ul class="header"><li><h3>Haircuts</h3></li>
+    <li class="logo">
+        <img src="http://images.all-free-download.com/images/graphiclarge/hair_salon_logo_template_vector_157102.jpg" width="50px" heigh="50px">
+    </li>
+    </ul>
+    <ul><li><img src="https://s-media-cache-ak0.pinimg.com/originals/e4/76/02/e4760254292479dc5b7677612289b983.jpg" width="250px" height="250px"><br></li></ul>
+    <ul><li><button>Mehr erfahren</button></li></ul>
+</div>
+<div class="container">
+    <div class="contactform">
+  <form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="date">Date</label>
+    <input type="text" id="date" name="date" placeholder="Date..">
+    <label for="subject">Other Info</label>
+    <textarea id="subject" name="subject" placeholder="Other info (haircut wishes etc.)" style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div class="openinghours">
+    <table width="100%" height="50%" align="center">
+     <tr>
+            <th>Date</th>
+          <th>Opening Hours</th>
+     </tr>
+<tr>
+    <td>Monday</td>
+    <td>09:00 - 18:00</td>
+</tr>
+<tr>
+    <td>Tuesday</td>
+    <td>09:00 - 18:00</td>
+</tr>
+<tr>
+    <td>Wednesday</td>
+    <td>09:00 - 18:00</td>
+</tr>
+<tr>
+    <td>Thursday</td>
+    <td>09:00 - 18:00</td>
+</tr>
+<tr>
+    <td>Friday</td>
+    <td>09:00 - 18:00</td>
+</tr>
+<tr>
+    <td>Saturday</td>
+    <td>09:00 - 18:00</td>
+</tr>
+<tr>
+    <td>Sunday</td>
+    <td>closed</td>
+</tr>
+    </table>
+</div>
+</div>
+</body>
+</html>
